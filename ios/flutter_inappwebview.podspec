@@ -25,6 +25,7 @@ A new Flutter plugin.
   s.dependency 'OrderedSet', '~>5.0'
   
   s.default_subspec = 'Core'
+  s.platforms = { :ios => "11.0", :osx => "" }
   
   s.subspec 'Core' do |core|
     core.platform = :ios, '8.0'
